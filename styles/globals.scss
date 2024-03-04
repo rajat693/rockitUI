@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./typography.scss";
+
+.outerContainer {
+  @apply w-full max-w-[1443px] m-auto;
+}
